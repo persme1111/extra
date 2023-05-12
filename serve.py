@@ -24,7 +24,7 @@ def update():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, host="0.0.0.0", port=8800)
+    app.run(debug=True, host="0.0.0.0", port=8880)
 
 ##  curl -X GET  http://localhost:8800
 ##  curl -H "content-Type: application/json" -X POST -d '{"num":200}' http://localhost:8800
