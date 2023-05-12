@@ -16,7 +16,7 @@ def update():
     if request.method == 'POST':
         data = request.get_json()
         seed[0] = data['num']
-        s = subprocess.run(["python", "/content/drive/My Drive/Colab Notebooks/stress_cpu.py"], capture_output=True, text=True)
+        #s = subprocess.run(["python", "/content/drive/My Drive/Colab Notebooks/stress_cpu.py"], capture_output=True, text=True)
         return ""
     elif request.method == 'GET':
         private_ip = socket.gethostname()
