@@ -20,7 +20,7 @@ def update():
         return ""
     elif request.method == 'GET':
         private_ip = socket.gethostname()
-        return str(private_ip)
+        return str(seed[0])
 
 
 if __name__ == '__main__':
